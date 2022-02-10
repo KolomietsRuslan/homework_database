@@ -1,0 +1,9 @@
+.DS_Store
+.idea
+.vscode
+*.log
+*.pdf
+*.sublime*
+node_modules/
+vendor/
+Thumbs.db

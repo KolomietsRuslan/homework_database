@@ -1,0 +1,2 @@
+1. Необходимо отобразить названия жанров (`name`) из таблицы genres, у которых нет ни одной книги из таблицы `books`. Связь `books`.`genre_id` = `genres`.`id`.
+SELECT `genres`.`name` FROM `genres` LEFT JOIN `books` ON `books`.`genre_id` = `genres`.`id` WHERE `books`.`genre_id` IS NULL
